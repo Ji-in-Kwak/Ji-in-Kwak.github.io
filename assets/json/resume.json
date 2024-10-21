@@ -50,8 +50,6 @@
       "studyType": "Bachelor",
       "startDate": "2016-03",
       "endDate": "2021-02",
-      #"GPA": "3.8/4.3",
-      #"Thesis": ["Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection"]
     }
   ],
   "awards": [
@@ -91,16 +89,14 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
       ]
-    },
-    
+    },    
     {
       "name": "Deep Learning",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
       ]
-    },
-    
+    },    
     {
       "name": "PyTorch",
       "level": "",
