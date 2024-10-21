@@ -40,7 +40,6 @@
       "studyType": "Master",
       "startDate": "2021-03",
       "endDate": "2023-08",
-      #"score": "10",
       "Thesis": ["Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection"]
     },
     {
@@ -55,88 +54,34 @@
       #"Thesis": ["Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection"]
     }
   ],
-  #"awards": [
-  #  {
-  #    "title": "Nobel Prize in Physics",
-  #    "date": "1921-11-01",
-  #    "awarder": "Royal Swedish Academy of Sciences",
-  #    "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-  #    "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-  #  }
-  #],
-  #"certificates": [
-    #{
-     # "name": "Machine Learning",
-     # "date": "2018-01-01",
-     # "issuer": "Stanford University",
-     # "url": "https://example.com",
-     # "icon": "fa-solid fa-location-dot"
-    #},
-    #{
-    #  "name": "Quantum Computing",
-    #  "date": "2018-01-01",
-    #  "issuer": "Stanford University",
-    #  "url": "https://example.com",
-    #  "icon": "fa-solid fa-tag"
-    #},
-    #{
-    #  "name": "Quantum Information",
-    #  "date": "2018-01-01",
-    #  "issuer": "Stanford University",
-    #  "url": "https://example.com",
-    #  "icon": "fa-solid fa-envelope"
-    #},
-    #{
-    #  "name": "Quantum Cryptography",
-    #  "date": "2018-01-01",
-    #  "issuer": "Stanford University",
-    #  "url": "https://example.com",
-    #  "icon": "fa-solid fa-hashtag"
-    #},
-    #{
-    #  "name": "Quantum Communication",
-    #  "date": "2018-01-01",
-    #  "issuer": "Stanford University",
-    #  "url": "https://example.com",
-    #  "icon": "fa-solid fa-calendar"
-    #},
-    #{
-    #  "name": "Quantum Teleportation",
-    #  "date": "2018-01-01",
-    #  "issuer": "Stanford University",
-    #  "url": "https://example.com",
-    #  "icon": "fa-solid fa-clipboard-check"
-    #}
-  #],
+  "awards": [
+  ],
+  "certificates": [
+  ],
   "publications": [
     {
       "name": "Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection",
       "publisher": "Jiin Kwak",
       "releaseDate": "2023-05",
       "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11473134",
-     # "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
     },
     {
       "name": "Quantifying incident impacts and identifying influential features in urban traffic networks",
       "publisher": "J.Y. Lee, J. Kwak, Y.K. Oh, S. Kim",
       "releaseDate": "2023-12",
       "url": "https://www.tandfonline.com/doi/abs/10.1080/21680566.2022.2063205",
-     # "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
     },
     {
       "name": "Time delay estimation of traffic congestion propagation due to accidents based on statistical causality",
       "publisher": "Y.K. Oh, J. Kwak, S. Kim",
       "releaseDate": "2022-11",
       "url": "https://arxiv.org/pdf/2108.06717",
-     # "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     },
-    
     {
       "name": "Scalable Robust Multi-Agent Reinforcement Learning for Model Uncertainty",
       "publisher": "Y. Jwa, M. Gwak, J. Kwak, C.W. Ahn, P.G. Park",
       "releaseDate": "2023-12",
       "url": "https://ieeexplore.ieee.org/abstract/document/10383458/",
-     # "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
@@ -163,7 +108,6 @@
       "keywords": [
       ]
     },
-    
     {
       "name": "Tableau",
       "level": "",
@@ -213,26 +157,6 @@
       ]
     }
   ],
- # "references": [
-    #{
-    # "name": "Professor John Doe",
-    #  "icon": "fa-solid fa-laptop",
-    #  "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    #},
-    #{
-    #  "name": "Professor John Doe",
-    #  "icon": "fa-solid fa-thumbtack",
-    #  "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    #}
-  #],
- # "projects": [
- #   {
- #     "name": "Quantum Computing",
- #     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
- #     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
- #     "startDate": "2018-01-01",
- #     "endDate": "2018-01-01",
- #     "url": "https://example.com"
- #   }
- # ]
+  "projects": [
+  ]
 }
