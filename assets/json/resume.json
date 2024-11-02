@@ -4,12 +4,20 @@
     "label": "Data Scientist",
     "image": "",
     "email": "jiin.kwak@lge.com",
+    "phone": "(010) 4513-9468",
     "url": "https://Ji-in-Kwak.github.io/",
     "summary": "Working as a data science Researcher in LG Electronics.",
     "location": {
       "city": "Seoul",
-      "countryCode": "Korea",
+      "countryCode": "Korea"
     },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Ji In Kwak",
+        "url": ""
+      }
+    ]
   },
   "work": [
     {
@@ -38,7 +46,7 @@
       "area": "Mathematical Science",
       "studyType": "Bachelor",
       "startDate": "2016-03",
-      "endDate": "2021-02",
+      "endDate": "2021-02"
     }
   ],
   "publications": [
@@ -46,25 +54,25 @@
       "name": "Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection",
       "publisher": "Jiin Kwak",
       "releaseDate": "2023-05",
-      "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11473134",
+      "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11473134"
     },
     {
       "name": "Quantifying incident impacts and identifying influential features in urban traffic networks",
       "publisher": "J.Y. Lee, J. Kwak, Y.K. Oh, S. Kim",
       "releaseDate": "2023-12",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/21680566.2022.2063205",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/21680566.2022.2063205"
     },
     {
       "name": "Time delay estimation of traffic congestion propagation due to accidents based on statistical causality",
       "publisher": "Y.K. Oh, J. Kwak, S. Kim",
       "releaseDate": "2022-11",
-      "url": "https://arxiv.org/pdf/2108.06717",
+      "url": "https://arxiv.org/pdf/2108.06717"
     },
     {
       "name": "Scalable Robust Multi-Agent Reinforcement Learning for Model Uncertainty",
       "publisher": "Y. Jwa, M. Gwak, J. Kwak, C.W. Ahn, P.G. Park",
       "releaseDate": "2023-12",
-      "url": "https://ieeexplore.ieee.org/abstract/document/10383458/",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10383458/"
     }
   ],
   "skills": [
@@ -117,18 +125,14 @@
         "Time Series Analysis",
         "Graph Neural Network",
         "Anomaly Detection",
-        "Intelligent Transportation System",
+        "Intelligent Transportation System"
       ]
     },
-    
     {
       "name": "Data Visualization",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Tableau",
-      ]
+      "keywords": "Tableau"
     },
-    
     {
       "name": "Prompt Engineering",
       "icon": "fa-solid fa-tag",
