@@ -25,8 +25,7 @@
       "position": "Associate Researcher",
       "startDate": "2023-08-16",
       "endDate": "",
-      "summary": "Contributed to the analysis and visualization of large-scale home appliances data to drive meaningful insights and data-driven decisions.",
-      "highlights": ["Relativity"]
+      "summary": "Contributed to the analysis and visualization of large-scale home appliances data to drive meaningful insights and data-driven decisions."
     }
   ],
   "education": [
@@ -34,17 +33,17 @@
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
       "location": "Ulsan, South Korea",
       "area": "Artificial Intelligent",
-      "studyType": "Master",
+      "studyType": "Master's Degree",
       "startDate": "2021-03",
       "endDate": "2023-08",
-      "Thesis": ["Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection"],
-      "Advisor": "Sungil Kim"
+      "thesis": "Thesis : Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection",
+      "advisor": "Sungil Kim"
     },
     {
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
       "location": "Ulsan, South Korea",
       "area": "Mathematical Science",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's Degree",
       "startDate": "2016-03",
       "endDate": "2021-02"
     }
