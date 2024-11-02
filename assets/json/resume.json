@@ -7,19 +7,9 @@
     "url": "https://Ji-in-Kwak.github.io/",
     "summary": "Working as a data science Researcher in LG Electronics.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Seoul",
+      "countryCode": "Korea",
     },
-    "profiles": [
-      {
-        "network": "",
-        "username": "",
-        "url": ""
-      }
-    ]
   },
   "work": [
     {
@@ -35,7 +25,6 @@
     {
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
       "location": "Ulsan, South Korea",
-      "url": "",
       "area": "Artificial Intelligent",
       "studyType": "Master",
       "startDate": "2021-03",
@@ -45,16 +34,11 @@
     {
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
       "location": "Ulsan, South Korea",
-      "url": "",
       "area": "Mathematical Science",
       "studyType": "Bachelor",
       "startDate": "2016-03",
       "endDate": "2021-02",
     }
-  ],
-  "awards": [
-  ],
-  "certificates": [
   ],
   "publications": [
     {
@@ -92,21 +76,21 @@
     },    
     {
       "name": "Deep Learning",
-      "level": "",
+      "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
       ]
     },    
     {
       "name": "PyTorch",
-      "level": "",
+      "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
       ]
     },
     {
       "name": "Tableau",
-      "level": "",
+      "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
       ]
