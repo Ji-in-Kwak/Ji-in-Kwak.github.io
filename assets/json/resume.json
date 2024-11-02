@@ -17,7 +17,7 @@
       "position": "Associate Researcher",
       "startDate": "2023-08-16",
       "endDate": "",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "summary": "Contributed to the analysis and visualization of large-scale home appliances data to drive meaningful insights and data-driven decisions.",
       "highlights": ["Relativity"]
     }
   ],
@@ -29,7 +29,8 @@
       "studyType": "Master",
       "startDate": "2021-03",
       "endDate": "2023-08",
-      "Thesis": ["Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection"]
+      "Thesis": ["Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection"],
+      "Advisor": "Sungil Kim"
     },
     {
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
