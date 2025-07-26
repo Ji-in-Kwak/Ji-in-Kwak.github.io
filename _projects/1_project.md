@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Traffic Congestion Propagation
+description: Solve traffic congestion propagation problems through machine learning modeling. 
+img: assets/img/incidents_map.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focuses on understanding and predicting traffic congestion propagation patterns in urban networks using advanced machine learning techniques, particularly Graph Neural Networks (GNNs) and statistical causality analysis. The research addresses critical challenges in transportation systems by developing real-time incident detection and impact prediction models.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### 1. Traffic Incident Impact Quantification
+Developed methodologies to quantify the spatial and temporal impacts of traffic incidents on urban networks. The research identifies influential features that contribute to congestion propagation patterns, enabling more effective traffic management strategies.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### 2. Real-time Incident Detection
+Implemented spatio-temporal Graph Neural Network approaches for real-time traffic incident detection. The system processes streaming traffic data to identify anomalies and predict potential congestion events before they fully develop.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
+## Technical Approach
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+The project employs a combination of:
+- **Graph Neural Networks** for spatial-temporal traffic pattern analysis
+- **Statistical causality methods** for understanding propagation delays
+- **Explainable Machine Learning** for analyzing the impact of various factors on congestion 
 
-{% endraw %}
+## Impact and Applications
+
+This research contributes to:
+- Improved traffic management systems
+- Enhanced emergency response planning
+- Better urban transportation infrastructure design
+- Real-time traffic monitoring and alert systems
+
+
+## Related Publications
+
+### Journal Papers
+- **Lee, J., Kwak, J., Oh, Y., & Kim, S.** (2023). Quantifying incident impacts and identifying influential features in urban traffic networks. *Transportmetrica B: Transport Dynamics*, 11(1), 279-300.
+
+- **Oh, Y., Kwak, J., & Kim, S.** (2021). Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. *arXiv preprint arXiv:2108.06717*.
+
+### Conference Papers
+- **Kwak, J., & Kim, S.** (2023). Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection. *대한산업공학회 춘계공동학술대회 논문집*, 3172-3181.
+
+### Thesis
+- **Kwak, J.** (2023). Graph Neural Networks for Traffic Incident Congestion Detection and Impact Prediction. *PhD Thesis, Ulsan National Institute of Science and Technology (UNIST)*.
+
+{% bibliography --cited %}

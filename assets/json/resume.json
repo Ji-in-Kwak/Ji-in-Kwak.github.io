@@ -22,9 +22,16 @@
   "work": [
     {
       "name": "LG Electronics",
+      "position": "Specialist",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Developing LLM-based systems for automating workflows and providing practical assistance in business operations."
+    },
+    {
+      "name": "LG Electronics",
       "position": "Associate Researcher",
       "startDate": "2023-08-16",
-      "endDate": "",
+      "endDate": "2024-12-31",
       "summary": "Contributed to the analysis and visualization of large-scale home appliances data to drive meaningful insights and data-driven decisions."
     }
   ],
@@ -37,7 +44,7 @@
       "startDate": "2021-03",
       "endDate": "2023-08",
       "thesis": "Thesis : Spatio-temporal Graph Neural Network Approach for Realtime Traffic Incident Detection",
-      "advisor": "Sungil Kim"
+      "advisor": "Advisor : Sungil Kim"
     },
     {
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
