@@ -2,7 +2,7 @@
 layout: page
 title: Blue-SPOT
 description: Seoul Commercial District Analysis Platform
-img: assets/img/project_bluespot/dashboard1.png
+img: assets/img/project_bluespot/dashboard1.JPG
 importance: 2
 category: work
 giscus_comments: true

@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: CMU Studio Project
+description: Speech Emotion-Based Smart Lighting Control System
+img: assets/img/need_project.png
+redirect: https://github.com/GoTartans/need3
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project implements a distributed system that controls smart lighting and music playback based on emotional analysis of speech input. The system detects seven different emotions and responds with corresponding light colors and music selections. The system consists of three main components running on different devices (two Raspberry Pi and GCP instance) and uses Apache Kafka as the message broker for communication between components.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+# System Architecture
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The system is composed of three main components distributed across different devices:
+
+## 1. Speech Input Node (Pi5)
+- Implements `mic_to_kafka.py`
+- Uses the speech_recognition to capture audio input from microphone
+- Produces audio data to Kafka topic 'wav'
+
+## 2. Processing Node (GCP Instance)
+- Hosts Kafka cluster with Zookeeper and Broker
+- Manages two topics: 'wav' and 'senti'
+- Runs `wav_to_senti.py` which:
+  - Consumes audio from 'wav' topic
+  - Processes audio through ASR, Denoising, and Sentiment Analysis models
+  - Produces sentiment results to 'senti' topic
+
+## 3. Output Node (Pi6)
+- Implements `kafka_to_bulb.py` 
+- Uses the kasa library for smart bulb control
+- Consumes sentiment data from 'senti' topic
+- Creates immersive emotional experience through:
+  - Smart lighting that responds to 7 different emotional states
+  - Automated music selection and playback based on detected emotions
+  - Synchronized audio-visual feedback system
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/need3-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    High-level system architecture showing the three main components and their interactions through Kafka
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

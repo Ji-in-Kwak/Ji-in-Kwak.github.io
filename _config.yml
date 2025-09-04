@@ -315,7 +315,7 @@ scholar:
   last_name: [Kwak]
   first_name: [Jiin]
 
-  style: apa
+  style: numbered
   locale: en
 
   source: /_bibliography/

@@ -5,7 +5,7 @@
     "image": "",
     "email": "jiin.kwak@lge.com",
     "phone": "(010) 4513-9468",
-    "url": "https://Ji-in-Kwak.github.io/",
+    "url": "https://ji-in-kwak.github.io/",
     "summary": "Working as a data science Researcher in LG Electronics.",
     "location": {
       "city": "Seoul",
@@ -47,6 +47,13 @@
       "advisor": "Advisor : Sungil Kim"
     },
     {
+      "institution": "Carnegie Mellon University (CMU)",
+      "location": "Pittsburgh, USA",
+      "studyType": "Visiting Student & Researcher",
+      "startDate": "2022-09",
+      "endDate": "2023-02"
+    },
+    {
       "institution": "Ulsan National Institute of Science and Technology (UNIST)",
       "location": "Ulsan, South Korea",
       "area": "Mathematical Science",
@@ -79,6 +86,12 @@
       "publisher": "Y. Jwa, M. Gwak, J. Kwak, C.W. Ahn, P.G. Park",
       "releaseDate": "2023-12",
       "url": "https://ieeexplore.ieee.org/abstract/document/10383458/"
+    },
+    {
+      "name": "TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery",
+      "publisher": "Y. Oh, G. Koh, J. Kwak, K. Shin, G.S. Kim, M.J. Lee, H. Choung, N. Kim, J.H. Moon, S. Kim",
+      "releaseDate": "2025-05",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0360835225001706"
     }
   ],
   "skills": [
@@ -105,6 +118,13 @@
     },
     {
       "name": "Tableau",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+      ]
+    },
+        {
+      "name": "Langchain",
       "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
