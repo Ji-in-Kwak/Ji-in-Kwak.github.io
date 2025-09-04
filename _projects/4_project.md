@@ -80,6 +80,6 @@ These results validate our approach's effectiveness in addressing the core chall
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Experimental results showing the superior performance of EDPC compared to baseline approaches
 </div>
 
