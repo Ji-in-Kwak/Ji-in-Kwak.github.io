@@ -5,7 +5,18 @@ description: Evolutionary Diversity-maintaining Population Curriculum for Robust
 img: assets/img/EDPC_framework.png
 importance: 4
 category: work
+related_publications: true
 ---
+
+
+## Project Overview
+
+**Role:** Algorithm development, experimental validation, and paper writing  
+
+**Period:** 2022.09 – 2023.12  
+
+**Location:** Carnegie Mellon University
+
 
 This research addresses critical challenges in multi-agent reinforcement learning (MARL) by introducing a novel approach that combines robust attention mechanisms with evolutionary diversity maintenance. Our work focuses on improving MARL performance in uncertain, noisy environments while maintaining scalability with increasing numbers of agents.
 

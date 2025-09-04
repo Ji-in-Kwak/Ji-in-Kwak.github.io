@@ -2,7 +2,7 @@
 layout: page
 title: Traffic Congestion Propagation
 description: Solve traffic congestion propagation problems through machine learning modeling. 
-img: assets/img/incidents_map.png
+img: assets/img/project_NAVER/incidents_map.png
 importance: 1
 category: work
 related_publications: true

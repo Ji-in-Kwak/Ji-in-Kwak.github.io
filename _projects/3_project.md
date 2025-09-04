@@ -7,45 +7,39 @@ importance: 3
 category: work
 ---
 
-This project implements a distributed system that controls smart lighting and music playback based on emotional analysis of speech input. The system detects seven different emotions and responds with corresponding light colors and music selections. The system consists of three main components running on different devices (two Raspberry Pi and GCP instance) and uses Apache Kafka as the message broker for communication between components.
+## Project Overview
 
-### Project Github Repository:
-https://github.com/GoTartans/need3
+**Role:** Sentiment analysis developement and Kafka system implementation
+
+**Period:** 2022.09 - 2023.02
+
+**Location:** Carnegie Mellon University
 
 
-# System Architecture
+This project implements a distributed system that controls smart lighting and music playback based on emotional analysis of speech input. The system detects seven different emotions and responds with corresponding light bulb colors and music recommendations. The system consists of three main components running on different devices and uses Apache Kafka as the message broker for communication between components.
 
-The system is composed of three main components distributed across different devices:
+### Project Github Repository
+**Repository:** [GitHub - NEED Project](https://github.com/GoTartans/need3)
 
-## 1. Speech Input Node (Pi5)
-- Implements `mic_to_kafka.py`
-- Uses the speech_recognition to capture audio input from microphone
-- Produces audio data to Kafka topic 'wav'
 
-## 2. Processing Node (GCP Instance)
-- Hosts Kafka cluster with Zookeeper and Broker
-- Manages two topics: 'wav' and 'senti'
-- Runs `wav_to_senti.py` which:
-  - Consumes audio from 'wav' topic
-  - Processes audio through ASR, Denoising, and Sentiment Analysis models
-  - Produces sentiment results to 'senti' topic
 
-## 3. Output Node (Pi6)
-- Implements `kafka_to_bulb.py` 
-- Uses the kasa library for smart bulb control
-- Consumes sentiment data from 'senti' topic
-- Creates immersive emotional experience through:
-  - Smart lighting that responds to 7 different emotional states
-  - Automated music selection and playback based on detected emotions
-  - Synchronized audio-visual feedback system
+## System Architecture
+
+The system is composed of three main modules, each running on separate devices and communicating via Apache Kafka:
+
+- **Speech Input:** Captures live audio from the user through a microphone using Automatic Speech Recognition (ASR) and Speech to Text (STT), providing processed audio data for emotion analysis.
+- **Emotion Recognition:** Processes the captured speech to identify one of seven emotional states using semantic analysis techniques.
+- **Smart Lighting & Music Control:** Adjusts lighting colors and music playback in real time, creating an environment that matches the detected emotion.
+
+Two Raspberry Pi devices and a Google Cloud Platform (GCP) instance collaborate to enable distributed processing and seamless control. This architecture allows for scalable, responsive smart environment management based on user emotions.
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/need3-architecture.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/need_project.png" title="System Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    High-level system architecture showing the three main components and their interactions through Kafka
+    System architecture showing the main components and their interactions through Kafka
 </div>
 
 
