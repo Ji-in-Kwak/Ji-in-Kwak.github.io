@@ -3,12 +3,15 @@ layout: page
 title: CMU Studio Project
 description: Speech Emotion-Based Smart Lighting Control System
 img: assets/img/need_project.png
-redirect: https://github.com/GoTartans/need3
 importance: 3
 category: work
 ---
 
 This project implements a distributed system that controls smart lighting and music playback based on emotional analysis of speech input. The system detects seven different emotions and responds with corresponding light colors and music selections. The system consists of three main components running on different devices (two Raspberry Pi and GCP instance) and uses Apache Kafka as the message broker for communication between components.
+
+### Project Github Repository:
+https://github.com/GoTartans/need3
+
 
 # System Architecture
 

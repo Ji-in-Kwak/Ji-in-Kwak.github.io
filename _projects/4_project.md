@@ -9,6 +9,12 @@ category: work
 
 This research addresses critical challenges in multi-agent reinforcement learning (MARL) by introducing a novel approach that combines robust attention mechanisms with evolutionary diversity maintenance. Our work focuses on improving MARL performance in uncertain, noisy environments while maintaining scalability with increasing numbers of agents.
 
+
+
+# Journal Papers
+- **Jwa, Y., Gwak, M., Kwak, J., Ahn, C. W., & Park, P.** (2023, December). Scalable Robust Multi-Agent Reinforcement Learning for Model Uncertainty. In 2023 62nd IEEE Conference on Decision and Control (CDC) (pp. 3402-3407). IEEE.
+
+
 # Motivation
 
 Multi-agent reinforcement learning faces several critical challenges that limit its practical applications:
